@@ -48,3 +48,10 @@ describe("calculateMedian", () => {
     it(`filters out non-numeric values and calculates the median for [${input}]`, () => expect(calculateMedian(input)).toEqual(expected))
   );
 });
+
+
+// We can run this test file using the command `npm test -- fix`
+// in the terminal. Making sure we are in the directory where this file is located.
+// If we have Jest installed globally, you can simply run `jest median.test.js`
+// instead. If you have added a test script to your package.json file, you can also run
+// `npm test median.test.js` to execute the tests.
