@@ -1,7 +1,4 @@
 function findMax(elements) {
-  if (elements.length === 0) {
-    return -Infinity; // Return -infinity for an empty array
-  }
 
   // If non-numeric elements are present, we will ignore them
   elements = elements.filter((element) => typeof element === "number");
